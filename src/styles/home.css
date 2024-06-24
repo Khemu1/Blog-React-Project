@@ -1,0 +1,63 @@
+.blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.blog-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 1px solid #fafafa;
+  padding-inline: 10px;
+  text-decoration: none;
+  color: white;
+}
+.blog-preview:hover {
+  color: unset;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(255, 255, 255, 0.616);
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(238, 10, 86);
+}
+
+.blog-preview p {
+  font-weight: bold;
+}
+.blogs button {
+  display: flex;
+  width: max-content;
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.user-blog {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+.user-blog .author {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1.4em;
+}
+.user-blog .title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.user-blog .body {
+  font-size: 1.2rem;
+}
+
+.user-blog button {
+  display: flex;
+  width: max-content;
+  padding: 10px;
+}
